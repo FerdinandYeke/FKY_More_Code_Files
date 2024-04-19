@@ -1,0 +1,176 @@
+
+body
+{
+	background-color: rgb(192, 223, 237);
+}
+
+/*
+Makes heading 1 font family "copperplate."
+Also aligns it to the center.
+*/
+div
+{
+	background-color: none;
+	text-align: center;
+	font-family: copperplate
+}
+
+h1
+{
+	font-size: 50px;
+}
+
+/*
+Makes heading 2, 3, and the unorderled lists font size 42 pixels.
+Also makes the font-family "serif".
+*/
+
+h2,h3,ul
+{
+	font-size: 42px;
+	font-family: serif:
+}
+
+/*
+Makes heading 2, 3, and the unorderled lists have rounded, 
+DarkBlue borders.
+*/
+
+h2,h3,ul
+{
+	border: 2px solid white;
+	border-radius: 5px;
+	border-width: 10px;
+}
+
+/*
+Creates a margin for heading 1, 2, and 3, for space outside the
+borders.
+*/
+
+h1,h2,h3
+{
+	margin: 25px 100px 75px 200px;
+	
+}
+
+/*
+Overrides the heading 1, 2, & 3 color and makes it DarkBlue.
+*/
+
+h1,h2,h3
+{
+	color: rgb(43, 43, 70);
+}
+
+/*
+Makes the unordered list font "serif" and the size 30 pixles.
+It aligns it at the left, and adds padding (internal space) between 
+the lists.
+*/
+
+ul
+{
+	font-family:serif;
+	font-size: 30px;	
+	text-align: left;
+	padding: 25px 50px 32px 100px
+	
+}
+
+/*
+Gives the unordered list a margin and padding.
+*/
+
+ul
+{
+	margin: 35px 100px 75px 200px;
+	padding: 35px 100px 75px 200px;
+	
+}
+
+/*
+Gives the p elements a font family, while also auto alining the text and
+giving it padding.
+*/
+
+p
+{
+	font-family: Garamond;
+	font-size: 25px;
+	text-align: auto;
+	padding: 25px 50px 32px 100px
+	
+	
+}
+
+
+a:link
+{
+	color: blue;
+}
+
+/*
+Adds a dark lavender shade once link is visited.
+*/
+a:visited
+{
+	color: rgb(103, 46, 122);
+}
+
+/*
+Adds a seafoam green if user hovers around link.
+*/
+a:hover
+{
+	color: rgb(24, 247, 172);
+}
+
+/*
+Makes link a strawberry red once currently visited.
+*/
+a:ActiveBorder
+{
+	color: rgb(255, 0, 54)
+}
+
+a:link
+{
+	background-color: white;
+	color: DarkBlue;
+	border: 10px solid color: #13a071;
+	padding: 50px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:visited
+{
+	background-color:#9d91a1;
+	color: black;
+	border: 10px solid color: #6a2b66;
+	padding: 50px, 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+a:hover
+{
+	background-color: #13a071;
+	color: white;
+}
+
+a:active
+{
+	background-color: #8f001f;
+	color: white;
+}
+
+a
+{
+	text-align:center;
+	font-size: 25px;
+}
